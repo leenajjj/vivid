@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vividshe</title>
+  <link rel="stylesheet" href="first.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">VIVIDshe</div>
+    <div class="nav-icons">
+      <a href="first.html"><i class="fas fa-home"></i> Home</a>
+      <a href="habout.html"><i class="fas fa-info-circle"></i> About</a>
+      <div class="search-bar">
+        <input type="text" placeholder="Search here">
+      </div>
+      <a href="index.html"><i class="fas fa-user"></i> Login/Signup</a>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <div class="main-section">
+    <h1>Empowering Women Through Art</h1>
+    <p>
+      Vividshe is a vibrant platform dedicated to showcasing the talents of women artists. Join us to explore, share, and celebrate the incredible creativity of women in the arts.
+    </p>
+  </div>
+
+  <!-- Recent Artists Section -->
+  <div class="recent-artists">
+    <h2>Our Recent Artists</h2>
+    <div class="artists-container">
+      <div class="artist-card">
+        <img src="https://i.pinimg.com/736x/37/ce/72/37ce720301ab1ec46d70699242db169c.jpg" alt="Artist Artwork">
+        <div class="artist-info">
+          <h3>AKRITI THAKUR</h3>
+          <p>A brief description of the artist's artwork and creative process.</p>
+        </div>
+      </div>
+      <div class="artist-card">
+        <img src="https://i.pinimg.com/736x/5d/1b/3e/5d1b3e2ea9556a73cac40493655fe647.jpg" alt="Artist Artwork">
+        <div class="artist-info">
+          <h3>MATILDA</h3>
+          <p>A brief description of the artist's artwork and creative process.</p>
+        </div>
+      </div>
+      <div class="artist-card">
+        <img src="https://i.pinimg.com/736x/04/fb/99/04fb9915b6548c7587015af8b6413927.jpg" alt="Artist Artwork">
+        <div class="artist-info">
+          <h3>SAUMYA SHARMA</h3>
+          <p>A brief description of the artist's artwork and creative process.</p>
+        </div>
+      </div>
+      <div class="artist-card">
+        <img src="https://i.pinimg.com/736x/ba/6c/8f/ba6c8f02b2025497e85f36931485aeaa.jpg" alt="Artist Artwork">
+        <div class="artist-info">
+          <h3>SOPHIE</h3>
+          <p>A brief description of the artist's artwork and creative process.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Vividshe | All Rights Reserved
+  </footer>
+
+  <!-- Bubble Cursor -->
+  <script>
+    const body = document.body;
+
+    body.addEventListener('mousemove', (e) => {
+      const bubble = document.createElement('div');
+      bubble.classList.add('bubble');
+      bubble.style.left = `${e.pageX}px`;
+      bubble.style.top = `${e.pageY}px`;
+      body.appendChild(bubble);
+
+      setTimeout(() => {
+        bubble.remove();
+      }, 2000);
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
